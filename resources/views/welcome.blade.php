@@ -1622,6 +1622,94 @@
       @keyframes facReelScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
     </style>
 
+    <!-- ===== Student Reviews ===== -->
+    @php
+      $reviews = [
+        [
+          'name' => 'Eman F.',
+          'role' => 'Student',
+          'quote' => 'I really enjoyed the Agribusiness Entrepreneurship course and learned many new and useful things. It changed my mindset towards business and helped me start thinking more like an entrepreneur. I especially liked that it was conducted online over the weekend, so I could learn from home without missing my college classes.',
+        ],
+        [
+          'name' => 'Dr. Hafza S.',
+          'role' => 'Assistant Professor, Botany Department, University of Karachi',
+          'quote' => 'It was a wonderful experience. I think this is very useful for young students who want to pursue this field.',
+        ],
+        [
+          'name' => 'Bilal A.',
+          'role' => 'Participant',
+          'quote' => 'Thank you to the whole team of CIASCE for organizing this valuable session. It gave us practical knowledge and a lot of technical insight into agribusiness. The instructor was a skillful person, and the session was really helpful.',
+        ],
+        [
+          'name' => 'Farah N.',
+          'role' => 'Participant',
+          'quote' => 'The session was informative and supportive, with in-depth knowledge. The comprehensive lectures of our instructor truly helped us learn a lot about agribusiness entrepreneurship.',
+        ],
+        [
+          'name' => 'Amir N.',
+          'role' => 'Participant',
+          'quote' => 'The session was very informative. We learned a lot of things from Dr. Zahid.',
+        ],
+      ];
+    @endphp
+    <section class="section-padding reviews-section" id="reviews">
+      <div class="container">
+        <h2 class="section-title center fade-in">What Our Students Say</h2>
+        <p class="lead" style="text-align:center;">Feedback from participants of the Entrepreneurship in Agribusiness Certificate Course.</p>
+        <div class="reviews-grid">
+          @foreach ($reviews as $r)
+            <figure class="review-card">
+              <div class="review-stars" aria-hidden="true">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+              <blockquote>&ldquo;{{ $r['quote'] }}&rdquo;</blockquote>
+              <figcaption>
+                <div class="review-avatar">{{ mb_substr(preg_replace('/^Dr\.\s*/', '', $r['name']), 0, 1) }}</div>
+                <div>
+                  <h4>{{ $r['name'] }}</h4>
+                  <p>{{ $r['role'] }}</p>
+                </div>
+              </figcaption>
+            </figure>
+          @endforeach
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .reviews-section { background: #ffffff; }
+      .reviews-grid {
+        display: grid; gap: 24px; margin-top: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      }
+      .review-card {
+        margin: 0; background: #fff; border-radius: 20px; padding: 28px 26px 24px;
+        border: 1px solid #e8f5e9; box-shadow: 0 12px 34px rgba(20,83,45,0.10);
+        display: flex; flex-direction: column; position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+      .review-card:hover { transform: translateY(-6px); box-shadow: 0 22px 46px rgba(46,125,50,0.18); }
+      .review-card::before {
+        content: "\201C"; position: absolute; top: 4px; right: 22px;
+        font-size: 5rem; line-height: 1; color: #e8f5e9; font-family: Georgia, serif;
+      }
+      .review-stars { color: #f5b301; font-size: 0.9rem; margin-bottom: 14px; }
+      .review-stars i { margin-right: 2px; }
+      .review-card blockquote {
+        margin: 0 0 22px; color: #2c3e50; font-size: 0.98rem; line-height: 1.7; font-style: italic; position: relative;
+      }
+      .review-card figcaption { margin-top: auto; display: flex; align-items: center; gap: 14px; }
+      .review-avatar {
+        width: 48px; height: 48px; flex-shrink: 0; border-radius: 50%;
+        background: linear-gradient(135deg,#2e7d32,#1b5e20); color: #fff;
+        display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 1.15rem;
+      }
+      .review-card h4 { color: #14532d; font-weight: 700; font-size: 1.02rem; margin: 0 0 2px; }
+      .review-card figcaption p { color: #667085; font-size: 0.84rem; margin: 0; line-height: 1.4; }
+      @media (max-width: 575px) {
+        .reviews-grid { grid-template-columns: 1fr; }
+      }
+    </style>
+
     <!-- CTA Section -->
    
     <style>
