@@ -1679,10 +1679,11 @@
     <style>
       .reviews-section { background: #ffffff; }
       .reviews-grid {
-        display: grid; gap: 24px; margin-top: 32px;
-        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        display: flex; flex-wrap: wrap; justify-content: center; gap: 24px;
+        margin: 32px auto 0; max-width: 1140px;
       }
       .review-card {
+        flex: 0 1 320px; max-width: 100%; box-sizing: border-box;
         margin: 0; background: #fff; border-radius: 20px; padding: 28px 26px 24px;
         border: 1px solid #e8f5e9; box-shadow: 0 12px 34px rgba(20,83,45,0.10);
         display: flex; flex-direction: column; position: relative; transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1706,7 +1707,7 @@
       .review-card h4 { color: #14532d; font-weight: 700; font-size: 1.02rem; margin: 0 0 2px; }
       .review-card figcaption p { color: #667085; font-size: 0.84rem; margin: 0; line-height: 1.4; }
       @media (max-width: 575px) {
-        .reviews-grid { grid-template-columns: 1fr; }
+        .review-card { flex-basis: 100%; }
       }
     </style>
 
