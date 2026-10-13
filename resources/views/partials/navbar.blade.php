@@ -12,6 +12,7 @@
         <li><a href="{{ route('about.abt') }}" class="{{ $__nav === 'about.abt' ? 'active' : '' }}">About</a></li>
         <li><a href="{{ route('faculty.fac') }}" class="{{ $__nav === 'faculty.fac' ? 'active' : '' }}">Faculty</a></li>
         <li><a href="{{ route('programs.index') }}" class="{{ $__nav === 'programs.index' ? 'active' : '' }}">Our Programs</a></li>
+        <li><a href="{{ route('careers') }}" class="{{ $__nav === 'careers' ? 'active' : '' }}">Careers</a></li>
         <li class="nav-cta d-xl-none"><a href="{{ route('register.form') }}">Enroll Now</a></li>
       </ul>
       <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>

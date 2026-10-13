@@ -1414,6 +1414,49 @@
       @keyframes facReelScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
     </style>
 
+    <!-- ===== Faculty Recruitment ===== -->
+    <section class="hirestrip-section">
+      <div class="container">
+        <div class="hirestrip">
+          <div class="hirestrip-icon"><i class="fas fa-chalkboard-teacher"></i></div>
+          <div class="hirestrip-text">
+            <span class="hirestrip-tag">We're hiring</span>
+            <h3>Teach with CIASCE</h3>
+            <p>Faculty roles in Technology &amp; Business, Hospitality, Life Sciences, Agriculture and Design &amp; Environment.</p>
+          </div>
+          <a href="{{ route('careers') }}" class="hirestrip-btn">View Open Positions <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .hirestrip-section { background: #f6f7fb; padding: 10px 0 80px; }
+      .hirestrip {
+        display: flex; align-items: center; gap: 26px; max-width: 1080px; margin: 0 auto;
+        background: linear-gradient(120deg, #2e7d32 0%, #1b5e20 100%); color: #fff;
+        border-radius: 22px; padding: 30px 36px; box-shadow: 0 20px 48px rgba(20,83,45,0.22);
+      }
+      .hirestrip-icon {
+        width: 64px; height: 64px; flex-shrink: 0; border-radius: 18px; background: rgba(255,255,255,0.14);
+        display: flex; align-items: center; justify-content: center; font-size: 1.6rem;
+      }
+      .hirestrip-text { flex: 1; min-width: 0; }
+      .hirestrip-tag { font-size: 0.74rem; font-weight: 700; letter-spacing: 1.2px; text-transform: uppercase; color: #c8e6c9; }
+      .hirestrip-text h3 { font-family: 'Poppins', sans-serif; font-weight: 700; font-size: 1.45rem; color: #fff; margin: 2px 0 4px; }
+      .hirestrip-text p { margin: 0; color: rgba(255,255,255,0.85); font-size: 0.95rem; line-height: 1.55; }
+      .hirestrip-btn {
+        flex-shrink: 0; display: inline-flex; align-items: center; gap: 10px; background: #fff; color: #1b5e20;
+        font-weight: 700; padding: 13px 26px; border-radius: 40px; text-decoration: none; transition: transform 0.25s ease;
+      }
+      .hirestrip-btn:hover { transform: translateY(-2px); color: #1b5e20; }
+      .hirestrip-btn i { transition: transform 0.25s ease; }
+      .hirestrip-btn:hover i { transform: translateX(4px); }
+      @media (max-width: 767px) {
+        .hirestrip { flex-direction: column; align-items: flex-start; padding: 28px 24px; gap: 16px; }
+        .hirestrip-btn { align-self: stretch; justify-content: center; }
+      }
+    </style>
+
     <!-- ===== Student Reviews ===== -->
     @php
       $reviews = [
@@ -1770,20 +1813,6 @@
 
 
 
-
-<!-- Biography Section -->
-<section  class="section-padding m-reset-negmargin" style="margin-top: -190px">
-  <div style="position: relative; top:100px;" class="container m-reset-top">
-      <div class="row justify-content-center">
-          <div class="col-lg-10">
-              <h2 class="section-title fade-in">Biography</h2>
-              <div class="fade-in text-center">
-                  <p>Doctorate from Imperial College, University of London (ranked 2<sup>nd</sup> worldwide by QS Ranking 2024); Post doctorate from University of Toronto, Canada; Served in many national organizations including: Centre of Excellence in Molecular Biology (CEMB), Central Cotton Research Institute (CCRI), Directorate of Pest Warning and Quality Control of Pesticides, School of Biological Sciences; Director, Institute of Agricultural Sciences, University of the Punjab, Lahore as researcher, academician and administrator. Currently serving as Dean, Faculty of Agricultural Sciences.</p>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
 
 <!-- Research Interests Section -->
 <section class="section-padding bg-light-custom">
@@ -2249,42 +2278,6 @@
             </div>
         </div>
 
-        <!-- Join Us CTA -->
-        <div class="text-center mt-5" style="margin-top: 4rem !important;">
-            <div style="
-                background: rgba(255,255,255,0.95);
-                border-radius: 20px;
-                padding: 50px 40px;
-                box-shadow: 0 20px 50px rgba(0,0,0,0.2);
-                max-width: 800px;
-                margin: 0 auto;
-            ">
-                <h3 style="
-                    color: #14532d;
-                    font-weight: 700;
-                    margin-bottom: 20px;
-                    font-size: 2rem;
-                ">Join Us</h3>
-                <p style="
-                    color: #666;
-                    line-height: 1.7;
-                    font-size: 1.1rem;
-                    margin-bottom: 30px;
-                ">At CIASCE, we believe that true progress begins with empowered individuals and sustainable practices. Join us in our mission to build a skilled, sustainable, and globally competitive future — one where knowledge meets purpose, and innovation grows in harmony with nature.</p>
-                <a href="#" style="
-                    background: linear-gradient(135deg, #2e7d32 0%, #1b5e20 100%);
-                    color: white;
-                    padding: 15px 40px;
-                    border-radius: 50px;
-                    text-decoration: none;
-                    font-weight: 600;
-                    font-size: 1.1rem;
-                    display: inline-block;
-                    transition: all 0.3s ease;
-                    box-shadow: 0 10px 25px rgba(46, 125, 50, 0.3);
-                ">Start Your Journey</a>
-            </div>
-        </div>
     </div>
 </section>
 

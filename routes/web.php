@@ -24,6 +24,11 @@ Route::get('/Faculty', function () {
     return view('frontend/faculty');
 })->name('faculty.fac');
 
+/* ---------- Careers (public) ---------- */
+Route::get('/careers', function () {
+    return view('frontend/careers');
+})->name('careers');
+
 /* ---------- Our Programs (public) ---------- */
 Route::get('/our-programs', [ProgramController::class, 'index'])->name('programs.index');
 
