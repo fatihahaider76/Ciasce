@@ -469,7 +469,7 @@
                     <p class="lead mb-4 tagline">"We believe in nature!"</p>
                     <p class="mb-5">A premier training and consultancy firm dedicated to advancing professional competencies in management, agriculture, and agribusiness.</p>
                     <a href="{{ route('programs.index') }}" class="btn btn-light btn-lg px-4 py-2 me-3" style="user-select:none; position:relative; z-index:5;">Explore Programs</a>
-                    <a href="#contact" class="btn btn-outline-light btn-lg px-4 py-2 js-scroll-contact" style="user-select:none; position:relative; z-index:5;">Contact Us</a>
+                    <a href="#footer" class="btn btn-outline-light btn-lg px-4 py-2 js-scroll-contact" style="user-select:none; position:relative; z-index:5;">Contact Us</a>
                 </div>
                 <div class="col-lg-4 text-center">
                     <div class="p-4 rounded" style="background-color: rgba(255,255,255,0.1);">
@@ -485,7 +485,7 @@
         var btn = document.querySelector('.js-scroll-contact');
         if (btn) {
           btn.addEventListener('click', function (e) {
-            var target = document.getElementById('contact');
+            var target = document.getElementById('footer');
             if (target) {
               e.preventDefault();
               e.stopPropagation();
@@ -2221,60 +2221,6 @@
     </script>
 
 
-
-<!-- Contact Section -->
-<section class="section-padding" id="contact">
-  <div class="container">
-      <h2 class="section-title fade-in">Contact Information</h2>
-      <div class="row justify-content-center">
-          <div class="col-lg-8">
-              <div class="info-card">
-                  <div class="row">
-                      <div class="col-md-6 mb-4 mb-md-0">
-                          <h4 class="mb-4">Get In Touch</h4>
-                          <ul class="contact-info">
-                              <li>
-                                  <i class="fas fa-phone"></i>
-                                  <div>
-                                      <strong>Cell:</strong> +1 647 786 6307 (Canada)
-                                  </div>
-                              </li>
-                              <li>
-                                  <i class="fas fa-envelope"></i>
-                                  <div>
-                                      <strong>Email:</strong><br>
-                                      info@ciasce.com
-                                  </div>
-                              </li>
-                              <li>
-                                  <i class="fas fa-map-marker-alt"></i>
-                                  <div>
-                                      <strong>Canadian Head Office:</strong><br>
-                                      Toronto, Ontario,<br>
-                                      Canada 🇨🇦
-                                  </div>
-                              </li>
-                          </ul>
-                      </div>
-                      <div class="col-md-6">
-                          <h4 class="mb-4">Professional Profile</h4>
-                          <p>Prof. Dr. Muhammad Saleem Haider is an accomplished researcher, academician and administrator with extensive experience in agricultural sciences.</p>
-                          <p>With over 200 research publications, numerous awards, and leadership roles in prestigious organizations, he continues to contribute significantly to the field of agricultural sciences.</p>
-                          {{-- <div class="mt-4">
-                              <button class="btn btn-primary me-2" style="background: #2e7d32; border: none;">
-                                  <i class="fas fa-download me-1"></i> Download CV
-                              </button>
-                              <button class="btn btn-outline-primary" style="color: #2e7d32; border-color: #2e7d32;">
-                                  <i class="fas fa-envelope me-1"></i> Send Message
-                              </button>
-                          </div> --}}
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
