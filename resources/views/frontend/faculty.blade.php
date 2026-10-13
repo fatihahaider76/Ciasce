@@ -506,28 +506,6 @@
             </div>
           </div>
 
-          <!-- Card: Faiq Ali -->
-          <div class="col-lg-4 col-md-6">
-            <div class="fac-card">
-              <div class="fac-card-media">
-                <img loading="lazy" src="{{ asset('assets/img/person/logo.png') }}" alt="Faiq Ali">
-                <div class="media-overlay">
-                  <h3>Faiq Ali</h3>
-                  <small>Academic Coordinator | Marketing &amp; Social Media</small>
-                </div>
-              </div>
-              <div class="fac-card-body">
-                <span class="fac-tag">Marketing &amp; Coordination</span>
-                <p class="fac-card-desc">Marketing &amp; finance professional serving as Admission Advisor &amp; Academic Coordinator, with experience in social media management, sales, and student admissions.</p>
-                <div class="fac-stats">
-                  <div class="fac-stat"><b>3+</b><small>Years Experience</small></div>
-                  <div class="fac-stat"><b>BS</b><small>Marketing (Hons)</small></div>
-                </div>
-                <button class="fac-view-btn" data-bs-toggle="modal" data-bs-target="#facModal15">View Profile</button>
-              </div>
-            </div>
-          </div>
-
         </div>
       </div>
     </section>
@@ -1904,90 +1882,6 @@
               <li>Organizer / Co-organizer of international conferences, seminars and workshops</li>
               <li>Member: American Society for Virology, American Society for Microbiology, Association of Applied Biology (UK), Asian Council of Science Editors, and other academic bodies</li>
             </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Modal 15: Faiq Ali -->
-  <div class="modal fade fac-modal" id="facModal15" tabindex="-1" aria-hidden="true">
-    <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
-      <div class="modal-content">
-        <div class="modal-header-band">
-          <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
-        </div>
-        <div class="fac-modal-head">
-          <img class="fac-modal-avatar" src="{{ asset('assets/img/person/logo.png') }}" alt="Faiq Ali">
-          <div class="fac-modal-head-info">
-            <h2>Faiq Ali</h2>
-            <div class="fac-modal-role">Marketing &amp; Finance Professional | Academic Coordinator | Social Media Manager</div>
-            <div class="fac-badges">
-              <span class="fac-badge"><i class="fas fa-bullhorn"></i> Marketing &amp; Social Media</span>
-              <span class="fac-badge"><i class="fas fa-user-graduate"></i> Academic Coordinator</span>
-              <span class="fac-badge"><i class="fas fa-graduation-cap"></i> BS (Hons) Marketing</span>
-            </div>
-          </div>
-        </div>
-        <div class="fac-modal-body">
-          <p class="fac-modal-lead">Enthusiastic, self-motivated, reliable and hardworking professional with experience in academic coordination, student admissions, sales, and social media management. Currently pursuing a BS (Hons) in Marketing with an academic background in Accounting &amp; Finance. Strong interest in management, marketing, leadership, and professional growth, with the ability to work effectively in competitive environments.</p>
-
-          <div class="m-section">
-            <h5><i class="fas fa-lightbulb"></i> Core Skills</h5>
-            <div>
-              <span class="m-chip">Management &amp; Coordination</span><span class="m-chip">Leadership &amp; Teamwork</span>
-              <span class="m-chip">Sales &amp; Customer Handling</span><span class="m-chip">Student Admissions &amp; Counseling</span>
-              <span class="m-chip">Social Media Management</span><span class="m-chip">Critical Thinking</span>
-              <span class="m-chip">Creativity &amp; Problem Solving</span><span class="m-chip">Student Records Management</span>
-            </div>
-          </div>
-
-          <div class="m-section">
-            <h5><i class="fas fa-briefcase"></i> Professional Experience</h5>
-            <ul class="m-list">
-              <li><span class="mi-title">Admission Advisor &amp; Academic Coordinator</span><span class="mi-sub">Assist students with admissions &amp; course selection; coordinate academic activities and maintain student records.</span><span class="mi-time">May 2025 – Present</span></li>
-              <li><span class="mi-title">Social Media Manager — Riphah International College</span><span class="mi-sub">Manage official social media coverage of events and digital content.</span><span class="mi-time">Feb 2024 – Present</span></li>
-              <li><span class="mi-title">Salesman — Health Optical Center</span><span class="mi-sub">Sales, customer interactions and product assistance.</span><span class="mi-time">Jan 2022 – Jul 2022</span></li>
-            </ul>
-          </div>
-
-          <div class="m-section">
-            <h5><i class="fas fa-graduation-cap"></i> Education</h5>
-            <ul class="m-list">
-              <li><span class="mi-title">BS (Hons) Marketing</span><span class="mi-sub">Lahore Leads University</span><span class="mi-time">2025–2027</span></li>
-              <li><span class="mi-title">ADP Accounting &amp; Finance</span><span class="mi-sub">Riphah International University, Lahore</span><span class="mi-time">2023–2025</span></li>
-              <li><span class="mi-title">Intermediate (I.Com)</span><span class="mi-sub">Govt. Islamia College, Civil Lines, Lahore</span><span class="mi-time">2021–2023</span></li>
-              <li><span class="mi-title">Matric (Computer Sciences)</span><span class="mi-sub">Unique Group of Institutions</span><span class="mi-time">2019–2021</span></li>
-            </ul>
-          </div>
-
-          <div class="row">
-            <div class="col-md-6">
-              <div class="m-section">
-                <h5><i class="fas fa-trophy"></i> Achievements &amp; Activities</h5>
-                <ul class="m-tick">
-                  <li>Best Media Member — Riphah International College</li>
-                  <li>Agriculture Supply Chain — Tsunagari Management Academy</li>
-                </ul>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="m-section">
-                <h5><i class="fas fa-language"></i> Languages</h5>
-                <div>
-                  <span class="m-chip">Urdu — Advanced</span><span class="m-chip">Punjabi — Intermediate</span><span class="m-chip">English — Basic</span>
-                </div>
-                <h5 style="margin-top:18px;"><i class="fas fa-heart"></i> Interests</h5>
-                <div>
-                  <span class="m-chip">Traveling</span><span class="m-chip">Cooking</span><span class="m-chip">Movies</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="m-section">
-            <h5><i class="fas fa-bullseye"></i> Career Objective</h5>
-            <p style="color:#444;margin:0;">To face challenges with confidence in a competitive environment and achieve professional excellence by contributing my skills and capabilities to a reputed, world-class organization. <em>References will be furnished on demand.</em></p>
           </div>
         </div>
       </div>
