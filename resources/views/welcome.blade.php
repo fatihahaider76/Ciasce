@@ -496,6 +496,199 @@
       });
     </script>
 
+    <!-- ===== Featured Course: Scientific Beekeeping ===== -->
+    @php $beeWhatsapp = '923334123220'; @endphp
+    <section class="kg-section">
+      <div class="container">
+        <div class="text-center">
+          <span class="kg-badge-top"><i class="fas fa-seedling"></i> Upcoming Training Program</span>
+        </div>
+        <div class="kg-card">
+          <div class="row g-0">
+
+            <div class="col-lg-5 kg-left">
+              <div class="kg-left-inner">
+                <span class="kg-online-badge"><i class="fas fa-laptop-house"></i> 3 Days &bull; Hybrid</span>
+                <h2 class="kg-title">Scientific<br><span class="kg-honey">Beekeeping</span></h2>
+                <p class="kg-tagline">Learn the science. Develop practical skills.</p>
+                <p class="kg-desc">A hands-on introduction to modern, sustainable beekeeping, from bee biology and hive management to producing quality honey. Join live online sessions or attend hands-on training in person.</p>
+                <div class="kg-quote"><i class="fas fa-quote-left"></i> Small Bees, <strong>Big Impact.</strong></div>
+              </div>
+              <svg class="kg-illus" viewBox="0 0 440 150" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <line x1="16" y1="140" x2="424" y2="140" stroke="rgba(255,255,255,0.25)" stroke-width="2" stroke-linecap="round"/>
+                <!-- honeycomb -->
+                <g stroke="rgba(255,255,255,0.5)" stroke-width="2" stroke-linejoin="round">
+                  <path d="M60 104 l18 -10 l18 10 v20 l-18 10 l-18 -10 z" fill="rgba(245,179,1,0.22)"/>
+                  <path d="M96 104 l18 -10 l18 10 v20 l-18 10 l-18 -10 z" fill="rgba(245,179,1,0.38)"/>
+                  <path d="M132 104 l18 -10 l18 10 v20 l-18 10 l-18 -10 z" fill="rgba(255,255,255,0.12)"/>
+                  <path d="M78 73 l18 -10 l18 10 v20 l-18 10 l-18 -10 z" fill="rgba(255,255,255,0.14)"/>
+                  <path d="M114 73 l18 -10 l18 10 v20 l-18 10 l-18 -10 z" fill="rgba(245,179,1,0.30)"/>
+                  <path d="M96 42 l18 -10 l18 10 v20 l-18 10 l-18 -10 z" fill="rgba(255,255,255,0.10)"/>
+                </g>
+                <!-- flight path + bee -->
+                <path d="M190 112 C230 60 270 130 312 76" stroke="rgba(255,255,255,0.45)" stroke-width="2" stroke-dasharray="4 6" stroke-linecap="round"/>
+                <g transform="translate(330 66)">
+                  <ellipse cx="-6" cy="-12" rx="9" ry="6" fill="rgba(255,255,255,0.35)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+                  <ellipse cx="6" cy="-13" rx="9" ry="6" fill="rgba(255,255,255,0.30)" stroke="rgba(255,255,255,0.6)" stroke-width="1.5"/>
+                  <ellipse cx="0" cy="0" rx="15" ry="10" fill="rgba(245,179,1,0.75)" stroke="rgba(255,255,255,0.7)" stroke-width="1.5"/>
+                  <path d="M-4 -9 v18 M5 -8 v16" stroke="rgba(20,83,45,0.75)" stroke-width="3"/>
+                </g>
+                <!-- flower -->
+                <g transform="translate(386 118)">
+                  <path d="M0 22 V2" stroke="rgba(255,255,255,0.55)" stroke-width="2" stroke-linecap="round"/>
+                  <g fill="rgba(255,255,255,0.28)" stroke="rgba(255,255,255,0.55)" stroke-width="1.4">
+                    <circle cx="0" cy="-8" r="6"/><circle cx="8" cy="-2" r="6"/><circle cx="-8" cy="-2" r="6"/>
+                    <circle cx="5" cy="6" r="6"/><circle cx="-5" cy="6" r="6"/>
+                  </g>
+                  <circle cx="0" cy="0" r="4" fill="rgba(245,179,1,0.85)"/>
+                </g>
+              </svg>
+            </div>
+
+            <div class="col-lg-7 kg-right">
+              <h3 class="kg-right-title">What you will learn</h3>
+              <div class="kg-highlights kg-two">
+                <div class="kg-hl"><span class="kg-hl-ic"><i class="fas fa-bug"></i></span><span>Bee biology &amp; behaviour</span></div>
+                <div class="kg-hl"><span class="kg-hl-ic"><i class="fas fa-tools"></i></span><span>Modern beekeeping techniques</span></div>
+                <div class="kg-hl"><span class="kg-hl-ic"><i class="fas fa-heartbeat"></i></span><span>Hive management &amp; colony health</span></div>
+                <div class="kg-hl"><span class="kg-hl-ic"><i class="fas fa-tint"></i></span><span>Honey production &amp; quality</span></div>
+                <div class="kg-hl"><span class="kg-hl-ic"><i class="fas fa-shield-virus"></i></span><span>Pest &amp; disease management</span></div>
+                <div class="kg-hl"><span class="kg-hl-ic"><i class="fas fa-leaf"></i></span><span>Sustainable beekeeping practices</span></div>
+              </div>
+
+              <div class="kg-info">
+                <div class="kg-info-item"><i class="fas fa-calendar-days"></i><b>Dates TBA</b><small>3 Days</small></div>
+                <div class="kg-info-item"><i class="fas fa-laptop"></i><b>Online</b><small>Live on Google Meet</small></div>
+                <div class="kg-info-item"><i class="fas fa-users"></i><b>In Person</b><small>Venue TBA</small></div>
+              </div>
+
+              <h3 class="kg-right-title">Course fee</h3>
+              <div class="kg-prices">
+                <div class="kg-price"><small>Regular</small><b>PKR 3,000</b><span>per person</span></div>
+                <div class="kg-price kg-price-hot"><em>Limited time</em><small>Early Bird</small><b>PKR 2,500</b><span>per person</span></div>
+                <div class="kg-price"><small>Group of 3</small><b>PKR 4,500</b><span>total &middot; PKR 1,500 each</span></div>
+              </div>
+
+              <div class="kg-earlybird">
+                <i class="fas fa-bell"></i> Dates and venue will be announced once enough participants register. <span class="kg-seats">Register your interest now!</span>
+              </div>
+
+              <div class="kg-who">
+                <b><i class="fas fa-bullseye"></i> Who should join?</b> Students, farmers, aspiring entrepreneurs, agribusiness professionals, researchers &amp; anyone interested in beekeeping.
+              </div>
+
+              <div class="kg-cta-row">
+                <a href="https://wa.me/{{ $beeWhatsapp }}?text=BEE" target="_blank" rel="noopener" class="kg-enroll"><i class="fab fa-whatsapp"></i> Register Interest</a>
+                <a href="{{ route('register.form') }}" class="kg-link">or register online <i class="fas fa-arrow-right"></i></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .kg-section { background: linear-gradient(180deg, #f1f8f1 0%, #fff8e6 100%); padding: 70px 0; }
+      .kg-badge-top {
+        display: inline-flex; align-items: center; gap: 9px; background: linear-gradient(135deg,#2e7d32,#1b5e20); color: #fff;
+        font-weight: 700; letter-spacing: 1px; text-transform: uppercase; font-size: 0.82rem;
+        padding: 10px 22px; border-radius: 30px; margin-bottom: 26px; box-shadow: 0 10px 24px rgba(46,125,50,0.30);
+      }
+      .kg-card {
+        background: #fff; border-radius: 26px; overflow: hidden;
+        box-shadow: 0 30px 70px rgba(20,83,45,0.18); max-width: 1050px; margin: 0 auto;
+      }
+      /* Left panel */
+      .kg-left {
+        position: relative; overflow: hidden;
+        background: linear-gradient(150deg, #43a047 0%, #1b5e20 52%, #14532d 100%); color: #fff;
+      }
+      .kg-illus { position: absolute; left: 0; right: 0; bottom: 0; width: 100%; height: auto; z-index: 1; opacity: 0.95; pointer-events: none; }
+      .kg-left-inner { position: relative; z-index: 2; padding: 42px 36px 160px; }
+      .kg-online-badge {
+        display: inline-flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.18);
+        border: 1px solid rgba(255,255,255,0.35); color: #fff; font-weight: 600; font-size: 0.82rem;
+        padding: 7px 15px; border-radius: 30px; margin-bottom: 18px;
+      }
+      .kg-title { font-weight: 800; font-size: 2.6rem; line-height: 1.05; margin: 0 0 12px; color: #fff; text-shadow: 0 3px 12px rgba(0,0,0,0.2); }
+      .kg-honey { color: #ffc93c; }
+      .kg-tagline { color: #bfe3c1; font-weight: 600; font-size: 1.05rem; margin-bottom: 16px; }
+      .kg-desc { color: rgba(255,255,255,0.9); font-size: 0.94rem; line-height: 1.65; margin-bottom: 22px; }
+      .kg-quote { border-left: 3px solid #ffc93c; padding-left: 14px; font-style: italic; color: #eaf7ea; font-size: 1.02rem; }
+      .kg-quote strong { color: #fff; font-style: normal; }
+      .kg-quote i { color: #ffc93c; margin-right: 6px; }
+      /* Right panel */
+      .kg-right { padding: 38px 38px 32px; }
+      .kg-right-title { color: #14532d; font-size: 0.8rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 16px; }
+      .kg-highlights { display: grid; gap: 12px; margin-bottom: 26px; }
+      .kg-highlights.kg-two { grid-template-columns: 1fr 1fr; gap: 12px 18px; }
+      .kg-hl { display: flex; align-items: center; gap: 12px; color: #3a3a52; font-size: 0.93rem; font-weight: 500; }
+      .kg-hl-ic {
+        flex-shrink: 0; width: 36px; height: 36px; border-radius: 11px; background: #fff4d6; color: #b7791f;
+        display: flex; align-items: center; justify-content: center; font-size: 0.92rem;
+      }
+      .kg-info { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 22px; }
+      .kg-info-item {
+        background: #f1f8f1; border: 1px solid #d9ead9; border-radius: 14px; padding: 14px 8px; text-align: center;
+      }
+      .kg-info-item i { color: #2e7d32; font-size: 1.15rem; display: block; margin-bottom: 7px; }
+      .kg-info-item b { display: block; color: #14532d; font-size: 0.9rem; line-height: 1.2; }
+      .kg-info-item small { display: block; color: #667085; font-size: 0.72rem; margin-top: 3px; }
+      .kg-prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 18px; }
+      .kg-price {
+        position: relative; border: 1.5px solid #f0dca8; background: #fffdf6; border-radius: 14px;
+        padding: 16px 10px 14px; text-align: center;
+      }
+      .kg-price small { display: block; color: #8a6d1d; font-size: 0.74rem; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; }
+      .kg-price b { display: block; color: #14532d; font-size: 1.2rem; margin: 4px 0 2px; }
+      .kg-price span { display: block; color: #667085; font-size: 0.74rem; }
+      .kg-price-hot { background: linear-gradient(135deg,#2e7d32,#1b5e20); border-color: #1b5e20; }
+      .kg-price-hot small { color: #ffd76a; }
+      .kg-price-hot b { color: #fff; }
+      .kg-price-hot span { color: #c8e6c9; }
+      .kg-price-hot em {
+        position: absolute; top: -10px; left: 50%; transform: translateX(-50%); white-space: nowrap;
+        background: #ffc93c; color: #14532d; font-style: normal; font-weight: 700; font-size: 0.66rem;
+        letter-spacing: 0.5px; text-transform: uppercase; padding: 3px 9px; border-radius: 20px;
+      }
+      .kg-earlybird {
+        background: #fffaeb; border: 1px dashed #f0c36d; border-radius: 12px; padding: 11px 16px;
+        color: #5c4a12; font-size: 0.86rem; line-height: 1.55; margin-bottom: 16px;
+      }
+      .kg-earlybird i { color: #d4a017; }
+      .kg-earlybird .kg-seats { color: #1b5e20; font-weight: 700; }
+      .kg-who { color: #55536e; font-size: 0.9rem; line-height: 1.55; margin-bottom: 22px; }
+      .kg-who b { color: #14532d; }
+      .kg-who i { color: #2e7d32; margin-right: 5px; }
+      .kg-cta-row { display: flex; align-items: center; gap: 20px; flex-wrap: wrap; }
+      .kg-enroll {
+        display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #2e7d32, #1b5e20);
+        color: #fff; font-weight: 700; font-size: 1rem; padding: 14px 30px; border-radius: 30px; text-decoration: none;
+        box-shadow: 0 12px 26px rgba(46,125,50,0.36); transition: all 0.3s ease; white-space: nowrap;
+      }
+      .kg-enroll:hover { transform: translateY(-3px); box-shadow: 0 18px 34px rgba(46,125,50,0.48); color: #fff; }
+      .kg-enroll i { font-size: 1.15rem; }
+      .kg-link { color: #2e7d32; font-weight: 600; text-decoration: none; font-size: 0.95rem; }
+      .kg-link i { transition: transform 0.3s ease; margin-left: 4px; }
+      .kg-link:hover { color: #1b5e20; }
+      .kg-link:hover i { transform: translateX(4px); }
+      @media (max-width: 991px) {
+        .kg-title { font-size: 2.3rem; }
+        .kg-left-inner { padding: 36px 30px 150px; }
+      }
+      @media (max-width: 576px) {
+        .kg-section { padding: 50px 0; }
+        .kg-highlights.kg-two { grid-template-columns: 1fr; }
+        .kg-info { grid-template-columns: repeat(3, 1fr); gap: 8px; }
+        .kg-prices { grid-template-columns: 1fr; gap: 16px; }
+        .kg-right { padding: 28px 24px; }
+        .kg-title { font-size: 2.1rem; }
+        .kg-left-inner { padding: 32px 24px 130px; }
+        .kg-enroll { width: 100%; justify-content: center; }
+      }
+    </style>
+
     <!-- About Section -->
     <section class="about-section">
         <div class="container">
