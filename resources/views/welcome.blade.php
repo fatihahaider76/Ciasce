@@ -496,6 +496,149 @@
       });
     </script>
 
+    <!-- ===== International Conference: Samarkand ===== -->
+    <section class="conf-section" id="conference">
+      <div class="container">
+        <div class="text-center">
+          <span class="conf-badge"><i class="fas fa-earth-asia"></i> International Conference</span>
+        </div>
+
+        <div class="conf-card">
+          <div class="conf-head">
+            <p class="conf-partner">CIASCE <span>in collaboration with</span> Samarkand State University of Veterinary Medicine <span class="conf-partner-sub">&middot; Nukus Branch, Uzbekistan</span></p>
+            <h2 class="conf-title">Regenerative Agriculture, Seed Development &amp; Integrated Water Resources Management <span>for Climate Resilience</span></h2>
+            <div class="conf-meta">
+              <span><i class="fas fa-calendar-days"></i> <b>Date:</b> To be announced soon</span>
+              <span><i class="fas fa-location-dot"></i> <b>Venue:</b> Samarkand, Uzbekistan</span>
+            </div>
+          </div>
+
+          <div class="conf-body">
+            <h3 class="conf-label">Conference themes</h3>
+            <div class="conf-themes">
+              <div class="conf-theme">
+                <span class="conf-theme-ic"><i class="fas fa-recycle"></i></span>
+                <h4>Regenerative Agriculture</h4>
+                <p>Healthy soil, sustainable future</p>
+              </div>
+              <div class="conf-theme">
+                <span class="conf-theme-ic"><i class="fas fa-seedling"></i></span>
+                <h4>Seed Development</h4>
+                <p>Innovation for food security</p>
+              </div>
+              <div class="conf-theme">
+                <span class="conf-theme-ic"><i class="fas fa-droplet"></i></span>
+                <h4>Integrated Water Resources Management</h4>
+                <p>Water for a resilient planet</p>
+              </div>
+            </div>
+
+            <p class="conf-about">A joint international platform bringing together researchers, scientists and industry experts to discuss innovative solutions for sustainable agriculture, seed improvement and smart water management in the face of climate change.</p>
+
+            <div class="conf-lists">
+              <div>
+                <h3 class="conf-label">Key highlights</h3>
+                <ul>
+                  <li>International expert speakers</li>
+                  <li>Research presentations</li>
+                  <li>Networking opportunities</li>
+                  <li>Collaborative research &amp; projects</li>
+                  <li>Pathway for future partnerships</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="conf-label">Why attend?</h3>
+                <ul>
+                  <li>Gain global insights</li>
+                  <li>Build an international network</li>
+                  <li>Explore research collaboration</li>
+                  <li>Contribute to a sustainable future</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="conf-cta">
+              <a href="mailto:conferences@ciasce.com?subject={{ rawurlencode('International Conference – Samarkand') }}" class="conf-btn"><i class="fas fa-envelope"></i> Contact the Organisers</a>
+              <span class="conf-email">conferences@ciasce.com</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="conf-tagline">Together for a greener, healthier and more resilient tomorrow.</p>
+      </div>
+    </section>
+
+    <style>
+      .conf-section { background: linear-gradient(180deg, #ffffff 0%, #f1f8f1 100%); padding: 70px 0 60px; }
+      .conf-badge {
+        display: inline-flex; align-items: center; gap: 9px; background: linear-gradient(135deg,#2e7d32,#1b5e20); color: #fff;
+        font-weight: 700; letter-spacing: 1px; text-transform: uppercase; font-size: 0.82rem;
+        padding: 10px 22px; border-radius: 30px; margin-bottom: 26px; box-shadow: 0 10px 24px rgba(46,125,50,0.30);
+      }
+      .conf-card {
+        max-width: 1050px; margin: 0 auto; background: #fff; border-radius: 26px; overflow: hidden;
+        box-shadow: 0 30px 70px rgba(20,83,45,0.16);
+      }
+      .conf-head {
+        background: linear-gradient(140deg, #2e7d32 0%, #1b5e20 55%, #14532d 100%); color: #fff;
+        padding: 40px 44px 36px; text-align: center;
+      }
+      .conf-partner { margin: 0 0 14px; font-size: 0.92rem; font-weight: 600; color: #e8f5e9; line-height: 1.6; }
+      .conf-partner span { color: #a5d6a7; font-weight: 400; font-style: italic; margin: 0 4px; }
+      .conf-partner .conf-partner-sub { font-style: normal; margin: 0; }
+      .conf-title {
+        font-weight: 800; font-size: 2rem; line-height: 1.25; color: #fff; margin: 0 auto 20px; max-width: 820px;
+      }
+      .conf-title span { display: block; color: #ffc93c; font-style: italic; font-size: 1.5rem; margin-top: 6px; }
+      .conf-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px 14px; }
+      .conf-meta span {
+        background: rgba(255,255,255,0.14); border: 1px solid rgba(255,255,255,0.28); border-radius: 30px;
+        padding: 8px 16px; font-size: 0.9rem; color: #fff;
+      }
+      .conf-meta i { color: #ffc93c; margin-right: 4px; }
+      .conf-body { padding: 36px 44px 38px; }
+      .conf-label { color: #14532d; font-size: 0.8rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 14px; }
+      .conf-themes { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 26px; }
+      .conf-theme {
+        background: #f6faf6; border: 1px solid #e3efe4; border-radius: 18px; padding: 24px 18px; text-align: center;
+      }
+      .conf-theme-ic {
+        width: 54px; height: 54px; border-radius: 50%; margin: 0 auto 12px;
+        background: linear-gradient(135deg,#2e7d32,#1b5e20); color: #fff;
+        display: flex; align-items: center; justify-content: center; font-size: 1.3rem;
+        box-shadow: 0 10px 22px rgba(46,125,50,0.25);
+      }
+      .conf-theme h4 { color: #14532d; font-weight: 700; font-size: 1.02rem; margin: 0 0 4px; line-height: 1.3; }
+      .conf-theme p { color: #8a6d1d; font-style: italic; font-size: 0.88rem; margin: 0; }
+      .conf-about { color: #3a3a52; font-size: 0.98rem; line-height: 1.75; margin: 0 0 24px; text-align: center; max-width: 820px; margin-left: auto; margin-right: auto; }
+      .conf-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 40px; margin-bottom: 28px; }
+      .conf-lists ul { list-style: none; margin: 0; padding: 0; }
+      .conf-lists li { position: relative; padding: 5px 0 5px 26px; color: #3a3a52; font-size: 0.94rem; }
+      .conf-lists li::before {
+        content: "\f058"; font-family: "Font Awesome 6 Free"; font-weight: 900; color: #2e7d32;
+        position: absolute; left: 0; top: 6px;
+      }
+      .conf-cta { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 14px 20px; }
+      .conf-btn {
+        display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #2e7d32, #1b5e20);
+        color: #fff; font-weight: 700; padding: 14px 30px; border-radius: 30px; text-decoration: none;
+        box-shadow: 0 12px 26px rgba(46,125,50,0.32); transition: all 0.3s ease;
+      }
+      .conf-btn:hover { color: #fff; transform: translateY(-3px); box-shadow: 0 18px 34px rgba(46,125,50,0.42); }
+      .conf-email { color: #667085; font-size: 0.92rem; }
+      .conf-tagline { text-align: center; color: #1b5e20; font-style: italic; font-weight: 600; margin: 26px 0 0; }
+      @media (max-width: 767px) {
+        .conf-head { padding: 32px 22px 28px; }
+        .conf-title { font-size: 1.45rem; }
+        .conf-title span { font-size: 1.15rem; }
+        .conf-body { padding: 28px 22px 30px; }
+        .conf-themes { grid-template-columns: 1fr; }
+        .conf-lists { grid-template-columns: 1fr; }
+        .conf-btn { width: 100%; justify-content: center; }
+        .conf-email { width: 100%; text-align: center; }
+      }
+    </style>
+
     <!-- ===== Featured Course: Scientific Beekeeping ===== -->
     @php $beeWhatsapp = '923334123220'; @endphp
     <section class="kg-section">
