@@ -505,11 +505,13 @@
 
         <div class="conf-card">
           <div class="conf-head">
-            <p class="conf-partner">CIASCE <span>in collaboration with</span> Samarkand State University of Veterinary Medicine <span class="conf-partner-sub">&middot; Nukus Branch, Uzbekistan</span></p>
+            <p class="conf-partner">CIASCE <span>in collaboration with</span> Nukus Branch of the Samarkand State University of Veterinary Medicine, Livestock and Biotechnologies <span class="conf-partner-sub">&middot; Uzbekistan</span></p>
             <h2 class="conf-title">Regenerative Agriculture, Seed Development &amp; Integrated Water Resources Management <span>for Climate Resilience</span></h2>
+            <p class="conf-subtitle">A global platform for research, innovation and collaboration for sustainable and climate-resilient agri-food systems</p>
             <div class="conf-meta">
               <span><i class="fas fa-calendar-days"></i> <b>Date:</b> To be announced soon</span>
               <span><i class="fas fa-location-dot"></i> <b>Venue:</b> Nukus, Republic of Karakalpakstan, Uzbekistan</span>
+              <span><i class="fas fa-users"></i> <b>Participation:</b> In person</span>
             </div>
           </div>
 
@@ -520,16 +522,19 @@
                 <span class="conf-theme-ic"><i class="fas fa-recycle"></i></span>
                 <h4>Regenerative Agriculture</h4>
                 <p>Healthy soil, sustainable future</p>
+                <small>Soil health, ecosystem restoration and sustainable farming systems</small>
               </div>
               <div class="conf-theme">
                 <span class="conf-theme-ic"><i class="fas fa-seedling"></i></span>
                 <h4>Seed Development</h4>
                 <p>Innovation for food security</p>
+                <small>Improved seed varieties, biotechnology and climate-resilient crops</small>
               </div>
               <div class="conf-theme">
                 <span class="conf-theme-ic"><i class="fas fa-droplet"></i></span>
                 <h4>Integrated Water Resources Management</h4>
                 <p>Water for a resilient planet</p>
+                <small>Efficient water use, irrigation innovation and climate adaptation</small>
               </div>
             </div>
 
@@ -544,6 +549,20 @@
                   <li>Networking opportunities</li>
                   <li>Collaborative research &amp; projects</li>
                   <li>Pathway for future partnerships</li>
+                  <li>Panel discussions</li>
+                  <li>Publication opportunities (selected papers)</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="conf-label">Who should attend?</h3>
+                <ul>
+                  <li>Researchers and scientists</li>
+                  <li>University faculty and students</li>
+                  <li>Agriculture &amp; environmental experts</li>
+                  <li>Seed and agri-input industry professionals</li>
+                  <li>Policy makers and development partners</li>
+                  <li>Professionals from Canada, Pakistan, Uzbekistan and other countries</li>
+                  <li>Cotton seed business supply chain</li>
                 </ul>
               </div>
               <div>
@@ -557,9 +576,41 @@
               </div>
             </div>
 
+            <h3 class="conf-label">Key dates <span class="conf-label-note">(tentative)</span></h3>
+            <div class="conf-dates">
+              <div><small>Call for abstracts</small><b>Coming soon</b></div>
+              <div><small>Abstract submission deadline</small><b>To be announced</b></div>
+              <div><small>Notification of acceptance</small><b>To be announced</b></div>
+              <div><small>Conference dates</small><b>To be announced</b></div>
+            </div>
+
+            <h3 class="conf-label">Conference contacts</h3>
+            <div class="conf-contacts">
+              <div class="conf-contact">
+                <span class="conf-contact-tag">Uzbekistan</span>
+                <h4>Dr. Matyakubov Bakhtiyar</h4>
+                <a href="mailto:b.matyakubov@uiame.uz"><i class="fas fa-envelope"></i> b.matyakubov@uiame.uz</a>
+                <a href="mailto:bmatyakubov@inbox.ru"><i class="fas fa-envelope"></i> bmatyakubov@inbox.ru</a>
+                <a href="tel:+998999925768"><i class="fas fa-phone"></i> +998 99 992 57 68</a>
+              </div>
+              <div class="conf-contact">
+                <span class="conf-contact-tag">Uzbekistan</span>
+                <h4>Dr. Mambetnazarov Amangeldi</h4>
+                <a href="mailto:mambetnazarov@gmail.com"><i class="fas fa-envelope"></i> mambetnazarov@gmail.com</a>
+                <a href="tel:+998913068270"><i class="fas fa-phone"></i> +998 91 306 82 70</a>
+              </div>
+              <div class="conf-contact">
+                <span class="conf-contact-tag">Canada &middot; CIASCE</span>
+                <h4>Hafiz Mujeeb ur Rehman</h4>
+                <p>International Coordinator, CIASCE</p>
+                <a href="mailto:ciasceacademy@gmail.com"><i class="fas fa-envelope"></i> ciasceacademy@gmail.com</a>
+                <a href="tel:+923004247265"><i class="fas fa-phone"></i> +92 300 4247265</a>
+              </div>
+            </div>
+
             <div class="conf-cta">
-              <a href="mailto:conferences@ciasce.com?subject={{ rawurlencode('International Conference – Nukus') }}" class="conf-btn"><i class="fas fa-envelope"></i> Contact the Organisers</a>
-              <span class="conf-email">conferences@ciasce.com</span>
+              <a href="mailto:ciasceacademy@gmail.com?subject={{ rawurlencode('International Conference – Nukus') }}" class="conf-btn"><i class="fas fa-envelope"></i> Contact the Organisers</a>
+              <span class="conf-email">ciasceacademy@gmail.com</span>
             </div>
           </div>
         </div>
@@ -611,7 +662,25 @@
       .conf-theme h4 { color: #14532d; font-weight: 700; font-size: 1.02rem; margin: 0 0 4px; line-height: 1.3; }
       .conf-theme p { color: #8a6d1d; font-style: italic; font-size: 0.88rem; margin: 0; }
       .conf-about { color: #3a3a52; font-size: 0.98rem; line-height: 1.75; margin: 0 0 24px; text-align: center; max-width: 820px; margin-left: auto; margin-right: auto; }
-      .conf-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 40px; margin-bottom: 28px; }
+      .conf-subtitle { color: #e8f5e9; font-size: 0.98rem; font-style: italic; max-width: 720px; margin: -8px auto 20px; line-height: 1.6; }
+      .conf-theme small { display: block; color: #55536e; font-size: 0.84rem; line-height: 1.5; margin-top: 8px; }
+      .conf-lists { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px 32px; margin-bottom: 28px; }
+      .conf-label-note { text-transform: none; letter-spacing: 0; font-weight: 500; color: #8a6d1d; }
+      .conf-dates { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin-bottom: 28px; }
+      .conf-dates div { background: #fffaeb; border: 1px solid #f0dca8; border-radius: 14px; padding: 14px 12px; text-align: center; }
+      .conf-dates small { display: block; color: #8a6d1d; font-size: 0.74rem; font-weight: 700; letter-spacing: 0.4px; text-transform: uppercase; line-height: 1.35; }
+      .conf-dates b { display: block; color: #14532d; font-size: 0.95rem; margin-top: 6px; }
+      .conf-contacts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 30px; }
+      .conf-contact { background: #f6faf6; border: 1px solid #e3efe4; border-radius: 16px; padding: 18px 18px 16px; }
+      .conf-contact-tag {
+        display: inline-block; background: #e8f5e9; color: #1b5e20; font-size: 0.7rem; font-weight: 700;
+        letter-spacing: 0.6px; text-transform: uppercase; padding: 3px 10px; border-radius: 20px; margin-bottom: 8px;
+      }
+      .conf-contact h4 { color: #14532d; font-weight: 700; font-size: 1rem; margin: 0 0 2px; }
+      .conf-contact p { color: #667085; font-size: 0.84rem; margin: 0 0 4px; }
+      .conf-contact a { display: block; color: #3a3a52; font-size: 0.86rem; text-decoration: none; padding: 3px 0; word-break: break-word; }
+      .conf-contact a:hover { color: #2e7d32; }
+      .conf-contact a i { color: #2e7d32; width: 18px; }
       .conf-lists ul { list-style: none; margin: 0; padding: 0; }
       .conf-lists li { position: relative; padding: 5px 0 5px 26px; color: #3a3a52; font-size: 0.94rem; }
       .conf-lists li::before {
@@ -627,6 +696,10 @@
       .conf-btn:hover { color: #fff; transform: translateY(-3px); box-shadow: 0 18px 34px rgba(46,125,50,0.42); }
       .conf-email { color: #667085; font-size: 0.92rem; }
       .conf-tagline { text-align: center; color: #1b5e20; font-style: italic; font-weight: 600; margin: 26px 0 0; }
+      @media (max-width: 991px) {
+        .conf-lists { grid-template-columns: 1fr 1fr; }
+        .conf-contacts { grid-template-columns: 1fr 1fr; }
+      }
       @media (max-width: 767px) {
         .conf-head { padding: 32px 22px 28px; }
         .conf-title { font-size: 1.45rem; }
@@ -634,6 +707,8 @@
         .conf-body { padding: 28px 22px 30px; }
         .conf-themes { grid-template-columns: 1fr; }
         .conf-lists { grid-template-columns: 1fr; }
+        .conf-dates { grid-template-columns: 1fr 1fr; }
+        .conf-contacts { grid-template-columns: 1fr; }
         .conf-btn { width: 100%; justify-content: center; }
         .conf-email { width: 100%; text-align: center; }
       }
