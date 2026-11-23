@@ -496,6 +496,170 @@
       });
     </script>
 
+    <!-- ===== International Conference: AI (University of Haripur) ===== -->
+    <section class="aic-section" id="ai-conference">
+      <div class="container">
+        <div class="text-center">
+          <span class="aic-badge"><i class="fas fa-robot"></i> International Conference &middot; Registration Open</span>
+        </div>
+
+        <div class="aic-card">
+          <div class="aic-head">
+            <p class="aic-partner">Jointly organised by <b>CIASCE</b> &amp; <b>University of Haripur</b></p>
+            <h2 class="aic-title">Emerging Trends in Artificial Intelligence <span>Research, Innovation and Real-World Applications</span></h2>
+            <div class="aic-meta">
+              <span><i class="fas fa-calendar-days"></i> <b>Date:</b> 10 December 2026 (one day)</span>
+              <span><i class="fas fa-laptop"></i> <b>Mode:</b> Hybrid (in person &amp; online)</span>
+              <span><i class="fas fa-location-dot"></i> <b>Venue:</b> University of Haripur, Pakistan</span>
+              <span><i class="fas fa-video"></i> Live on Zoom</span>
+            </div>
+          </div>
+
+          <div class="aic-body">
+            <h3 class="aic-label">Key themes</h3>
+            <div class="aic-themes">
+              <div class="aic-theme"><span class="aic-theme-ic"><i class="fas fa-microchip"></i></span><h4>AI Fundamentals &amp; Emerging Trends</h4></div>
+              <div class="aic-theme"><span class="aic-theme-ic"><i class="fas fa-lightbulb"></i></span><h4>Research &amp; Innovation in AI</h4></div>
+              <div class="aic-theme"><span class="aic-theme-ic"><i class="fas fa-chart-line"></i></span><h4>Real-World Applications</h4><p>Agriculture, health, education, industry and more</p></div>
+              <div class="aic-theme"><span class="aic-theme-ic"><i class="fas fa-brain"></i></span><h4>Generative AI &amp; Prompt Engineering</h4></div>
+              <div class="aic-theme"><span class="aic-theme-ic"><i class="fas fa-code"></i></span><h4>Hands-on AI Tools &amp; Case Studies</h4></div>
+            </div>
+
+            <div class="aic-lists">
+              <div>
+                <h3 class="aic-label">Conference highlights</h3>
+                <ul>
+                  <li>Expert talks by academia &amp; industry experts</li>
+                  <li>Latest research &amp; innovations in AI</li>
+                  <li>Real-world case studies</li>
+                  <li>Interactive Q&amp;A and expert panel</li>
+                  <li>Networking &amp; collaboration opportunities</li>
+                </ul>
+              </div>
+              <div>
+                <h3 class="aic-label">Who should attend?</h3>
+                <ul>
+                  <li>Researchers and academics</li>
+                  <li>University students (undergraduate &amp; postgraduate)</li>
+                  <li>Industry professionals and innovators</li>
+                  <li>AI enthusiasts and policy makers</li>
+                </ul>
+                <p class="aic-cert"><i class="fas fa-award"></i> E-certificate for all participants</p>
+              </div>
+            </div>
+
+            <h3 class="aic-label">Registration fee</h3>
+            <div class="aic-prices">
+              <div class="aic-price"><small>Regular</small><b>Rs. 2,500</b></div>
+              <div class="aic-price aic-price-hot"><em>Until 30 Nov</em><small>Early Bird</small><b>Rs. 1,500</b></div>
+              <div class="aic-price"><small>Student</small><b>Rs. 1,000</b></div>
+            </div>
+            <p class="aic-deadline"><i class="fas fa-clock"></i> Early registration deadline: <b>30 November 2026</b></p>
+
+            <div class="aic-cta">
+              <a href="https://forms.gle/28YMeHfBm1tFpKfe8" target="_blank" rel="noopener" class="aic-btn">Register Now <i class="fas fa-arrow-up-right-from-square"></i></a>
+              <span class="aic-cta-note">Official University of Haripur registration form</span>
+            </div>
+            <div class="aic-contact">
+              <a href="tel:+923334123220"><i class="fas fa-phone"></i> +92 333 4123220 (Pakistan)</a>
+              <a href="tel:+16477866307"><i class="fas fa-phone"></i> +1 647 786 6307 (Canada)</a>
+              <a href="mailto:ciasceacademy@gmail.com?subject={{ rawurlencode('AI Conference – University of Haripur') }}"><i class="fas fa-envelope"></i> ciasceacademy@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .aic-section { background: linear-gradient(180deg, #ffffff 0%, #eef4fb 100%); padding: 70px 0 60px; }
+      .aic-badge {
+        display: inline-flex; align-items: center; gap: 9px; background: linear-gradient(135deg,#2e7d32,#1b5e20); color: #fff;
+        font-weight: 700; letter-spacing: 1px; text-transform: uppercase; font-size: 0.82rem;
+        padding: 10px 22px; border-radius: 30px; margin-bottom: 26px; box-shadow: 0 10px 24px rgba(46,125,50,0.30);
+      }
+      .aic-card {
+        max-width: 1050px; margin: 0 auto; background: #fff; border-radius: 26px; overflow: hidden;
+        box-shadow: 0 30px 70px rgba(20,60,110,0.16);
+      }
+      .aic-head {
+        background: linear-gradient(140deg, #1e4f8f 0%, #163a6b 55%, #14532d 100%); color: #fff;
+        padding: 40px 44px 36px; text-align: center;
+      }
+      .aic-partner { margin: 0 0 14px; font-size: 0.95rem; color: #dbe8f7; }
+      .aic-partner b { color: #fff; }
+      .aic-title { font-weight: 800; font-size: 2.1rem; line-height: 1.25; color: #fff; margin: 0 auto 22px; max-width: 820px; }
+      .aic-title span { display: block; color: #9be29f; font-size: 1.35rem; font-weight: 700; margin-top: 8px; }
+      .aic-meta { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px 12px; }
+      .aic-meta span {
+        background: rgba(255,255,255,0.13); border: 1px solid rgba(255,255,255,0.28); border-radius: 30px;
+        padding: 8px 16px; font-size: 0.88rem; color: #fff;
+      }
+      .aic-meta i { color: #9be29f; margin-right: 4px; }
+      .aic-body { padding: 36px 44px 38px; }
+      .aic-label { color: #163a6b; font-size: 0.8rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 14px; }
+      .aic-themes { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin-bottom: 28px; }
+      .aic-theme { background: #f4f8fd; border: 1px solid #e1eaf5; border-radius: 16px; padding: 20px 12px; text-align: center; }
+      .aic-theme-ic {
+        width: 48px; height: 48px; border-radius: 14px; margin: 0 auto 10px;
+        background: linear-gradient(135deg,#1e4f8f,#163a6b); color: #fff;
+        display: flex; align-items: center; justify-content: center; font-size: 1.15rem;
+      }
+      .aic-theme h4 { color: #163a6b; font-weight: 700; font-size: 0.9rem; margin: 0; line-height: 1.35; }
+      .aic-theme p { color: #667085; font-size: 0.78rem; margin: 6px 0 0; line-height: 1.4; }
+      .aic-lists { display: grid; grid-template-columns: 1fr 1fr; gap: 20px 40px; margin-bottom: 28px; }
+      .aic-lists ul { list-style: none; margin: 0; padding: 0; }
+      .aic-lists li { position: relative; padding: 5px 0 5px 26px; color: #3a3a52; font-size: 0.94rem; }
+      .aic-lists li::before {
+        content: "\f058"; font-family: "Font Awesome 6 Free"; font-weight: 900; color: #2e7d32;
+        position: absolute; left: 0; top: 6px;
+      }
+      .aic-cert {
+        display: inline-flex; align-items: center; gap: 8px; margin: 14px 0 0; padding: 8px 14px; border-radius: 30px;
+        background: #e8f5e9; color: #1b5e20; font-weight: 700; font-size: 0.88rem;
+      }
+      .aic-prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 12px; }
+      .aic-price { position: relative; border: 1.5px solid #d6e4f3; background: #f8fbff; border-radius: 14px; padding: 18px 10px 16px; text-align: center; }
+      .aic-price small { display: block; color: #1e4f8f; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; }
+      .aic-price b { display: block; color: #163a6b; font-size: 1.35rem; margin-top: 4px; }
+      .aic-price-hot { background: linear-gradient(135deg,#2e7d32,#1b5e20); border-color: #1b5e20; }
+      .aic-price-hot small { color: #c8e6c9; }
+      .aic-price-hot b { color: #fff; }
+      .aic-price-hot em {
+        position: absolute; top: -10px; left: 50%; transform: translateX(-50%); white-space: nowrap;
+        background: #ffc93c; color: #14532d; font-style: normal; font-weight: 700; font-size: 0.66rem;
+        letter-spacing: 0.5px; text-transform: uppercase; padding: 3px 9px; border-radius: 20px;
+      }
+      .aic-deadline { text-align: center; color: #b42318; font-size: 0.92rem; margin: 0 0 26px; }
+      .aic-deadline i { margin-right: 6px; }
+      .aic-cta { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px 20px; margin-bottom: 18px; }
+      .aic-btn {
+        display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #2e7d32, #1b5e20);
+        color: #fff; font-weight: 700; font-size: 1.05rem; padding: 15px 34px; border-radius: 30px; text-decoration: none;
+        box-shadow: 0 12px 26px rgba(46,125,50,0.32); transition: all 0.3s ease;
+      }
+      .aic-btn:hover { color: #fff; transform: translateY(-3px); box-shadow: 0 18px 34px rgba(46,125,50,0.42); }
+      .aic-cta-note { color: #667085; font-size: 0.9rem; }
+      .aic-contact { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 24px; border-top: 1px solid #eef0f4; padding-top: 18px; }
+      .aic-contact a { color: #3a3a52; font-size: 0.9rem; text-decoration: none; }
+      .aic-contact a:hover { color: #2e7d32; }
+      .aic-contact i { color: #2e7d32; margin-right: 6px; }
+      @media (max-width: 991px) {
+        .aic-themes { grid-template-columns: repeat(3, 1fr); }
+      }
+      @media (max-width: 767px) {
+        .aic-head { padding: 32px 22px 28px; }
+        .aic-title { font-size: 1.5rem; }
+        .aic-title span { font-size: 1.1rem; }
+        .aic-body { padding: 28px 22px 30px; }
+        .aic-themes { grid-template-columns: 1fr 1fr; }
+        .aic-lists { grid-template-columns: 1fr; }
+        .aic-prices { grid-template-columns: 1fr; gap: 16px; }
+        .aic-btn { width: 100%; justify-content: center; }
+        .aic-cta-note { width: 100%; text-align: center; }
+        .aic-contact { flex-direction: column; align-items: center; }
+      }
+    </style>
+
     <!-- ===== International Conference: Nukus ===== -->
     <section class="conf-section" id="conference">
       <div class="container">
@@ -711,6 +875,161 @@
         .conf-contacts { grid-template-columns: 1fr; }
         .conf-btn { width: 100%; justify-content: center; }
         .conf-email { width: 100%; text-align: center; }
+      }
+    </style>
+
+    <!-- ===== Online Training: Human Resource Management (HRM) ===== -->
+    @php
+      $hrmTiers = [
+        [
+          'key' => 't1', 'tier' => 'Tier 1', 'name' => 'Short Course', 'sub' => 'Introduction to Human Resource Management',
+          'when' => 'November 2026', 'length' => '3 Days', 'note' => '',
+          'topics' => ['Overview of HRM and its importance', 'Key roles and responsibilities in HR', 'Recruitment and selection basics', 'Employee engagement', 'Workplace ethics and professional behaviour'],
+        ],
+        [
+          'key' => 't2', 'tier' => 'Tier 2', 'name' => 'Intermediate Course', 'sub' => 'Core HR Practices and Tools',
+          'when' => 'December 2026', 'length' => '4 Weeks', 'note' => '4 days per week · 1 hour per day',
+          'topics' => ['Workforce planning and job design', 'Recruitment and selection strategies', 'Training and development', 'Performance management', 'Compensation and benefits', 'Employee relations'],
+        ],
+        [
+          'key' => 't3', 'tier' => 'Tier 3', 'name' => 'Comprehensive Course', 'sub' => 'Strategic Human Resource Management',
+          'when' => 'January – February 2027', 'length' => '8 Weeks', 'note' => '4 days per week · 1 hour per day',
+          'topics' => ['Strategic HRM and organisational development', 'Leadership and change management', 'HR analytics and data-driven decision making', 'Diversity, equity and inclusion', 'Future trends in HR and digital HRM', 'Case studies and practical applications'],
+        ],
+      ];
+    @endphp
+    <section class="hrm-section" id="hrm-training">
+      <div class="container">
+        <div class="text-center">
+          <span class="hrm-badge"><i class="fas fa-user-tie"></i> Online Training Program</span>
+          <h2 class="hrm-title">Human Resource Management <span>(HRM)</span></h2>
+          <p class="hrm-lead">Develop essential HR skills and modern people-management strategies for effective and productive workplaces.</p>
+          <div class="hrm-pills">
+            <span><i class="fas fa-users"></i> Professional development</span>
+            <span><i class="fas fa-chart-line"></i> Practical skills</span>
+            <span><i class="fas fa-gears"></i> Real-world applications</span>
+            <span><i class="fas fa-chalkboard-user"></i> Expert guidance</span>
+          </div>
+        </div>
+
+        <div class="hrm-tiers">
+          @foreach ($hrmTiers as $t)
+            <div class="hrm-tier hrm-{{ $t['key'] }}">
+              <div class="hrm-tier-head">
+                <span class="hrm-tier-tag">{{ $t['tier'] }}</span>
+                <h3>{{ $t['name'] }}</h3>
+                <p>{{ $t['sub'] }}</p>
+              </div>
+              <div class="hrm-when">
+                <i class="fas fa-calendar-days"></i>
+                <div>
+                  <b>{{ $t['when'] }}</b>
+                  <span>{{ $t['length'] }}@if ($t['note']) <small>{{ $t['note'] }}</small>@endif</span>
+                </div>
+              </div>
+              <h4 class="hrm-topics-label">Key topics</h4>
+              <ul>
+                @foreach ($t['topics'] as $topic)
+                  <li>{{ $topic }}</li>
+                @endforeach
+              </ul>
+            </div>
+          @endforeach
+        </div>
+
+        <div class="hrm-gain">
+          <h3>What you will gain</h3>
+          <div class="hrm-gain-grid">
+            <span><i class="fas fa-users"></i> Build professional HR knowledge</span>
+            <span><i class="fas fa-lightbulb"></i> Develop practical management skills</span>
+            <span><i class="fas fa-chart-pie"></i> Apply HR tools and strategies</span>
+            <span><i class="fas fa-bullhorn"></i> Enhance leadership and communication</span>
+            <span><i class="fas fa-briefcase"></i> Prepare for real-world HR challenges</span>
+          </div>
+        </div>
+
+        <div class="hrm-cta">
+          <a href="https://wa.me/923334123220?text=HRM" target="_blank" rel="noopener" class="hrm-btn"><i class="fab fa-whatsapp"></i> Register Your Interest</a>
+          <span>Be the first to know when registrations open.</span>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      .hrm-section { background: linear-gradient(180deg, #fbfaf7 0%, #f4f1fa 100%); padding: 70px 0; }
+      .hrm-badge {
+        display: inline-flex; align-items: center; gap: 9px; background: linear-gradient(135deg,#2e7d32,#1b5e20); color: #fff;
+        font-weight: 700; letter-spacing: 1px; text-transform: uppercase; font-size: 0.82rem;
+        padding: 10px 22px; border-radius: 30px; margin-bottom: 18px; box-shadow: 0 10px 24px rgba(46,125,50,0.30);
+      }
+      .hrm-title { font-weight: 800; font-size: 2.4rem; color: #14532d; margin: 0 0 10px; }
+      .hrm-title span { color: #b42318; }
+      .hrm-lead { color: #475467; font-size: 1.05rem; line-height: 1.7; max-width: 640px; margin: 0 auto 18px; }
+      .hrm-pills { display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 10px; margin-bottom: 36px; }
+      .hrm-pills span { background: #fff; border: 1px solid #e7e3d8; border-radius: 30px; padding: 7px 14px; color: #344054; font-size: 0.86rem; font-weight: 600; }
+      .hrm-pills i { color: #2e7d32; margin-right: 5px; }
+
+      .hrm-tiers { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; max-width: 1100px; margin: 0 auto 30px; }
+      .hrm-tier {
+        --tier: #2e7d32; --tier-soft: #eef7ee;
+        background: #fff; border-radius: 22px; overflow: hidden; display: flex; flex-direction: column;
+        box-shadow: 0 16px 40px rgba(20,40,30,0.10); border-top: 5px solid var(--tier);
+      }
+      .hrm-t1 { --tier: #b42318; --tier-soft: #fdf0ee; }
+      .hrm-t2 { --tier: #2e7d32; --tier-soft: #eef7ee; }
+      .hrm-t3 { --tier: #6941c6; --tier-soft: #f4f0fd; }
+      .hrm-tier-head { padding: 22px 22px 14px; }
+      .hrm-tier-tag {
+        display: inline-block; background: var(--tier); color: #fff; font-size: 0.72rem; font-weight: 700;
+        letter-spacing: 1px; text-transform: uppercase; padding: 4px 12px; border-radius: 20px; margin-bottom: 10px;
+      }
+      .hrm-tier-head h3 { color: var(--tier); font-weight: 800; font-size: 1.35rem; margin: 0 0 4px; }
+      .hrm-tier-head p { color: #475467; font-size: 0.92rem; margin: 0; }
+      .hrm-when {
+        display: flex; align-items: flex-start; gap: 12px; margin: 0 22px 16px; padding: 12px 14px;
+        background: var(--tier-soft); border-radius: 14px;
+      }
+      .hrm-when > i { color: var(--tier); font-size: 1.3rem; margin-top: 3px; }
+      .hrm-when b { display: block; color: #1d2939; font-size: 0.98rem; }
+      .hrm-when span { display: block; color: #344054; font-weight: 600; font-size: 0.88rem; }
+      .hrm-when small { display: block; color: #667085; font-weight: 400; font-size: 0.76rem; margin-top: 2px; }
+      .hrm-topics-label { color: var(--tier); font-size: 0.76rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 0 22px 8px; }
+      .hrm-tier ul { list-style: none; margin: 0; padding: 0 22px 22px; }
+      .hrm-tier li { position: relative; padding: 5px 0 5px 24px; color: #344054; font-size: 0.9rem; line-height: 1.45; }
+      .hrm-tier li::before {
+        content: "\f058"; font-family: "Font Awesome 6 Free"; font-weight: 900; color: var(--tier);
+        position: absolute; left: 0; top: 6px; font-size: 0.85rem;
+      }
+
+      .hrm-gain { max-width: 1100px; margin: 0 auto 30px; background: #fff; border-radius: 20px; padding: 22px 24px; box-shadow: 0 12px 32px rgba(20,40,30,0.07); }
+      .hrm-gain h3 { text-align: center; color: #14532d; font-size: 0.82rem; font-weight: 700; letter-spacing: 1px; text-transform: uppercase; margin: 0 0 16px; }
+      .hrm-gain-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; }
+      .hrm-gain-grid span { text-align: center; color: #344054; font-size: 0.88rem; line-height: 1.45; }
+      .hrm-gain-grid i {
+        display: flex; align-items: center; justify-content: center; width: 44px; height: 44px; margin: 0 auto 8px;
+        border-radius: 50%; background: #fff4d6; color: #b7791f; font-size: 1.05rem;
+      }
+
+      .hrm-cta { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px 20px; }
+      .hrm-btn {
+        display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #2e7d32, #1b5e20);
+        color: #fff; font-weight: 700; font-size: 1.05rem; padding: 15px 32px; border-radius: 30px; text-decoration: none;
+        box-shadow: 0 12px 26px rgba(46,125,50,0.32); transition: all 0.3s ease;
+      }
+      .hrm-btn:hover { color: #fff; transform: translateY(-3px); box-shadow: 0 18px 34px rgba(46,125,50,0.42); }
+      .hrm-btn i { font-size: 1.2rem; }
+      .hrm-cta > span { color: #475467; font-size: 0.94rem; }
+
+      @media (max-width: 991px) {
+        .hrm-tiers { grid-template-columns: 1fr; max-width: 560px; }
+        .hrm-gain-grid { grid-template-columns: repeat(3, 1fr); row-gap: 18px; }
+      }
+      @media (max-width: 576px) {
+        .hrm-section { padding: 50px 0; }
+        .hrm-title { font-size: 1.8rem; }
+        .hrm-gain-grid { grid-template-columns: 1fr 1fr; }
+        .hrm-btn { width: 100%; justify-content: center; }
+        .hrm-cta > span { width: 100%; text-align: center; }
       }
     </style>
 
