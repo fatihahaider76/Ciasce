@@ -548,14 +548,6 @@
               </div>
             </div>
 
-            <h3 class="aic-label">Registration fee</h3>
-            <div class="aic-prices">
-              <div class="aic-price"><small>Regular</small><b>Rs. 2,500</b></div>
-              <div class="aic-price aic-price-hot"><em>Until 30 Nov</em><small>Early Bird</small><b>Rs. 1,500</b></div>
-              <div class="aic-price"><small>Student</small><b>Rs. 1,000</b></div>
-            </div>
-            <p class="aic-deadline"><i class="fas fa-clock"></i> Early registration deadline: <b>30 November 2026</b></p>
-
             <div class="aic-cta">
               <a href="https://forms.gle/28YMeHfBm1tFpKfe8" target="_blank" rel="noopener" class="aic-btn">Register Now <i class="fas fa-arrow-up-right-from-square"></i></a>
               <span class="aic-cta-note">Official University of Haripur registration form</span>
@@ -617,20 +609,6 @@
         display: inline-flex; align-items: center; gap: 8px; margin: 14px 0 0; padding: 8px 14px; border-radius: 30px;
         background: #e8f5e9; color: #1b5e20; font-weight: 700; font-size: 0.88rem;
       }
-      .aic-prices { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-bottom: 12px; }
-      .aic-price { position: relative; border: 1.5px solid #d6e4f3; background: #f8fbff; border-radius: 14px; padding: 18px 10px 16px; text-align: center; }
-      .aic-price small { display: block; color: #1e4f8f; font-size: 0.76rem; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; }
-      .aic-price b { display: block; color: #163a6b; font-size: 1.35rem; margin-top: 4px; }
-      .aic-price-hot { background: linear-gradient(135deg,#2e7d32,#1b5e20); border-color: #1b5e20; }
-      .aic-price-hot small { color: #c8e6c9; }
-      .aic-price-hot b { color: #fff; }
-      .aic-price-hot em {
-        position: absolute; top: -10px; left: 50%; transform: translateX(-50%); white-space: nowrap;
-        background: #ffc93c; color: #14532d; font-style: normal; font-weight: 700; font-size: 0.66rem;
-        letter-spacing: 0.5px; text-transform: uppercase; padding: 3px 9px; border-radius: 20px;
-      }
-      .aic-deadline { text-align: center; color: #b42318; font-size: 0.92rem; margin: 0 0 26px; }
-      .aic-deadline i { margin-right: 6px; }
       .aic-cta { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 12px 20px; margin-bottom: 18px; }
       .aic-btn {
         display: inline-flex; align-items: center; gap: 10px; background: linear-gradient(135deg, #2e7d32, #1b5e20);
@@ -653,7 +631,6 @@
         .aic-body { padding: 28px 22px 30px; }
         .aic-themes { grid-template-columns: 1fr 1fr; }
         .aic-lists { grid-template-columns: 1fr; }
-        .aic-prices { grid-template-columns: 1fr; gap: 16px; }
         .aic-btn { width: 100%; justify-content: center; }
         .aic-cta-note { width: 100%; text-align: center; }
         .aic-contact { flex-direction: column; align-items: center; }

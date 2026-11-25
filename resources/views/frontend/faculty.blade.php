@@ -224,7 +224,7 @@
           <div class="col-lg-4 col-md-6">
             <div class="fac-card">
               <div class="fac-card-media">
-                <img loading="lazy" src="{{ asset('assets/img/person/logo.png') }}" alt="Hafiz Mujeeb Ur Rehman">
+                <img loading="lazy" src="{{ asset('assets/img/person/hafiz-mujeeb.jpeg') }}" alt="Hafiz Mujeeb Ur Rehman" style="object-fit: contain; background: #fff;">
                 <div class="media-overlay">
                   <h3>Hafiz Mujeeb Ur Rehman</h3>
                   <small>International Coordinator</small>
@@ -1194,7 +1194,7 @@
           <button type="button" class="btn-close-custom" data-bs-dismiss="modal" aria-label="Close"><i class="fas fa-times"></i></button>
         </div>
         <div class="fac-modal-head">
-          <img loading="lazy" class="fac-modal-avatar" src="{{ asset('assets/img/person/logo.png') }}" alt="Hafiz Mujeeb Ur Rehman">
+          <img loading="lazy" class="fac-modal-avatar" src="{{ asset('assets/img/person/hafiz-mujeeb.jpeg') }}" alt="Hafiz Mujeeb Ur Rehman" style="object-fit: cover; object-position: center 30%; padding: 0;">
           <div class="fac-modal-head-info">
             <h2>Hafiz Mujeeb Ur Rehman</h2>
             <div class="fac-modal-role">International Coordinator | Agriculture, Water-Management &amp; Capacity-Building Professional</div>
